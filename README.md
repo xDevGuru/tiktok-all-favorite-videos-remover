@@ -23,23 +23,34 @@ Remove all your favorite videos on TikTok automatically — no clicks, no scroll
 
 ## Installation
 
-### From Chrome Web Store
+### From Browser Store
 
 👉 [Install from Chrome Web Store](https://chrome.google.com/webstore/detail/tiktok-all-favorite-video/cbjkccccmffolddklbkedlndlfokcpbn)
 
+👉 Firefox Add-on Store (coming soon)
+
 ### 🛠️ Manual Installation (for developers)
+
+#### Chrome
 
 1. Clone this repository or download the source code.
 2. Go to `chrome://extensions` in Google Chrome.
 3. Enable **Developer mode** (top right toggle).
 4. Click **"Load unpacked"** and select the project folder.
 
+#### Firefox
+
+1. Clone this repository or download the source code.
+2. Go to `about:debugging#/runtime/this-firefox` in Firefox.
+3. Click **"Load Temporary Add-on"**.
+4. Select the `manifest.json` file from the project folder.
+
 ---
 
 ## How to Use
 
 1. Make sure you're **logged in** to your TikTok account at [tiktok.com](https://tiktok.com).
-2. Click the extension icon in the Chrome toolbar.
+2. Click the extension icon in the browser toolbar.
 3. Click **"Start Removing Favorites"**.
 4. A new TikTok tab will open automatically.
 5. ✅ The extension will:
